@@ -6,9 +6,7 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
-
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -21,7 +19,7 @@
 
     <meta-data
         android:name="com.google.android.geo.API_KEY"
-        android:value="AIzaSyBglMRHonGUVd7Vk4lZt6VtgUHCga6EXFs" />
+        android:value="AIzaSyD4Tn6_MNbWqNJ32OgMiTDSVCltzhVcxJw" />
 
     <activity
         android:name=".MapsActivity"
@@ -34,7 +32,9 @@
 
         <activity   android:name=".spaceInfo"></activity>
         <activity   android:name=".WebLookup"></activity>
+        <activity   android:name=".profile"></activity>
 
 
-</application>
+
+    </application>
 </manifest>

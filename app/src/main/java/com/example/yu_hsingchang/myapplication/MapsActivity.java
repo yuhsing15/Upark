@@ -46,7 +46,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-        mMap.addMarker(new MarkerOptions().position(BENTLEY).title("Bently University").snippet("175 Forest Street"));
+        mMap.addMarker(new MarkerOptions().position(BENTLEY).title("Bentley University").snippet("175 Forest Street"));
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(BENTLEY, zoom));
 
         mMap.addMarker(new MarkerOptions().position(p).title(" ").snippet(" "));

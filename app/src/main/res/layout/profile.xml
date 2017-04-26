@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Henry Bently                             "
+        android:text="Henry Bentley "
         android:textSize="28sp"
         android:textColor="#13213a"
         android:layout_marginBottom="20dp"
